@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #title{
+            font-size: x-large;
+            padding: 10px 20px 20px;
+            border-bottom: 1px solid #e2e2e2
+        }
+        body {
+            font: 130% Lucida Sans, Verdana;
+            margin: 0 68px;
+            line-height: 30px;
+        }
+
+        #main{
+            background-color: #f8f8f8;
+            text-align: left;
+            padding: 90px 440px 90px 70px ;
+            border-radius: 6px;
+        }
+
+        #main.h1{
+            font-size: x-large;
+        }
+
+        #blue{
+            font-size: 20px; 
+            background-color: #155af0d2; 
+            width: 170px; 
+            height: 45px; 
+            color: white; 
+            border-radius: 10px; 
+            border: white;
+        }
+
+        #left_border{
+            color: white;
+            font-size: 17px;
+            line-height: 25px;
+            border-radius: 8px;
+            width: 500px;
+            margin: 20px 0 20px 0;
+            padding: 40px 100px 65px 50px;
+            background-color: #18181ee4;
+        }
+
+        #black {
+            font-size: 15px; 
+            background-color: #18181ee4; 
+            width: 140px; 
+            height: 35px; 
+            color: #f8f8f8; 
+            border-radius: 8px; 
+            border: 1px solid #f8f8f8;
+        }
+
+        #grey {
+            font-size: 15px; 
+            background-color: #f8f8f8; 
+            width: 140px; 
+            height: 35px; 
+            color: #000000; 
+            border-radius: 8px; 
+            border: 1px solid #0000009c;
+        }
+
+        #right_border{
+            color: #000000;
+            border: 1px solid #f1f1f1;
+            float: right;
+            top: 530px;
+            right: 0;
+            font-size: 14px;
+            line-height: 25px;
+            border-radius: 8px;
+            width: 520px;
+            height: 200px;
+            margin: 20px 70px;
+            padding: 35px 40px 65px 60px;
+            background-color: #f8f8f8;
+            position: absolute;
+        }   
+
+    </style>
+</head>
+
+<body>
+   <div id="header">
+    <p id="title">Jumbotron example</p>
+   </div>
+
+    <div id="main">
+        <h1>Custom jumbotron</h1>
+        <p>Using a series of utilities, you can create this Jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button id="blue">Example button</button>
+    </div>
+
+    <div id="left_border">
+        <h2>Change the background</h2>
+        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+        <button id="black">Example button</button>
+    </div>
+
+    <div id="right_border">
+        <h2>Add borders</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <button id="grey">Example button</button>
+    </div>
+</body>
+</html>
